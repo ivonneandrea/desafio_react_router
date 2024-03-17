@@ -1,42 +1,77 @@
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+
+.navBar {
+  color: white;
+  height: 3rem;
+  display: flex;
+  background-color: red;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.navigation {
+  width: 30rem;
+  display: flex;
+  justify-content: space-around;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.navLink {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  background-color: red;
+}
+.navBrandContainer {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+.navBrand {
+  color: black;
+  font-size: 28px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.homePage {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  color: black;
+}
+.homePageText {
+  padding-top: 15rem;
+}
+.homePage h1 {
+  padding-bottom: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+
+.contactPage {
+  padding-top: 5rem;
+  color: black;
+}
+input {
+  width: 30rem;
 }
 
-.card {
-  padding: 2em;
+button {
+  color: red ;
+
+
+}
+.contactPage p {
+  font-size: 20px;
+  margin-top: 2rem;
+}
+.formDescription {
+  height: 5rem;
 }
 
-.read-the-docs {
-  color: #888;
+
+.notFound {
+  padding: 5rem;
+}
+.notFoundImg {
+  width: 20%;
 }

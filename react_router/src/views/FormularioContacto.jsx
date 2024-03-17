@@ -4,7 +4,7 @@ const FormularioContacto = () => {
             <section className="homePage">
                 <div className="contactPage">
                     <article>
-                        <h2>Cuentanos, ¿En que te podemos ayudar? </h2>
+                        <h2>Cuéntanos, ¿En que te podemos ayudar? </h2>
                     </article>
                     <form>
                         <p>Correo</p>
@@ -17,10 +17,8 @@ const FormularioContacto = () => {
                         className="formDescription"
                             type="text"
                         />
-                        <br />
-                    <button type="submit"> Enviar</button>
-                
                     </form>
+                     <button  type="submit">Enviar</button>
                 </div>
             </section>
         </>
